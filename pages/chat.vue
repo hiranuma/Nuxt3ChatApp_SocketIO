@@ -115,13 +115,13 @@ onBeforeUnmount(() => {
           <div
             class="px-6 py-2 w-1/2 rounded-md mb-3"
             :class="{
-              'bg-red-100': chat.username === 'Nuxt3Chat Admin',
+              'bg-orange-400': chat.username === 'Nuxt3Chat Admin',
               'bg-primary/20': chat.username === route.query.username,
-              'bg-green-300': chat.username !== route.query.username,
+              'bg-emerald-500': chat.username !== route.query.username,
             }"
           >
             <div class="flex items-center gap-x-3">
-              <div class="text-xs text-primary font-semibold">{{ chat.username }}</div>
+              <div class="text-xs text-gray-100 font-semibold">{{ chat.username }}</div>
               <div class="text-xs">{{ chat.time }}</div>
             </div>
             <div class="mt-1 text-base">

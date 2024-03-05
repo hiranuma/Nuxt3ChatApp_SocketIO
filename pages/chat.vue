@@ -74,7 +74,7 @@ onBeforeUnmount(() => {
       <!-- Sidebar -->
       <div class="bg-slate-100 py-4 px-6">
         <div class="mb-4">
-          <div class="flex items-center gap-x-2 mb-2 px-3 py-1.5 rounded-md bg-white">
+          <div class="flex items-center gap-x-2 mb-2 px-3 py-1.5 rounded-md bg-gray-700">
             <UIcon
               name="i-heroicons-chat-bubble-bottom-center-text"
               class="w-6 h-6 font-semibold"
@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
           </div>
         </div>
         <div>
-          <div class="flex items-center gap-x-2 mb-2 px-3 py-1.5 rounded-md bg-white">
+          <div class="flex items-center gap-x-2 mb-2 px-3 py-1.5 rounded-md bg-gray-700">
             <UIcon name="i-heroicons-user-group" class="w-6 h-6 font-semibold" />
             <div class="text-base">Users</div>
           </div>
